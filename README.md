@@ -2,22 +2,20 @@
 
 ## Integrantes
 
-[Espacio para nombres]
+Carlos Alberto Gómez Posada
 
 ## Descripción breve de la actividad
-
-[Espacio para descripción]
 
 Este repositorio contiene los talleres del primer corte de la asignatura Sistemas Inteligentes I, enfocados en algoritmos de búsqueda y técnicas fundamentales de inteligencia artificial.
 
 ## Estructura y relación de notebooks
 
-| Notebook | Descripción |
-| --- | --- |
-| `Resolucion_Problemas_Busqueda_NoInformada.ipynb` | Resolución de problemas mediante estrategias de búsqueda no informada, como BFS y DFS. |
-| `Resolucion_Problemas_Busqueda_Informada.ipynb` | Resolución de problemas mediante estrategias de búsqueda informada y funciones heurísticas. |
-| `Minimax.ipynb` | Aplicación del algoritmo Minimax para toma de decisiones en juegos. |
-| `Poda_Alfa_Beta.ipynb` | Optimización de Minimax mediante poda Alfa-Beta. |
+| Notebook                                            | Descripción                                                                                   |
+| --------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `Resolucion_Problemas_Busqueda_NoInformada.ipynb` | Resolución de problemas mediante estrategias de búsqueda no informada, como BFS y DFS.       |
+| `Resolucion_Problemas_Busqueda_Informada.ipynb`   | Resolución de problemas mediante estrategias de búsqueda informada y funciones heurísticas. |
+| `Minimax.ipynb`                                   | Aplicación del algoritmo Minimax para toma de decisiones en juegos.                           |
+| `Poda_Alfa_Beta.ipynb`                            | Optimización de Minimax mediante poda Alfa-Beta.                                              |
 
 Los notebooks se encuentran en la carpeta `notebooks/`. Los resultados o archivos generados se almacenan en `results/`.
 
@@ -34,10 +32,9 @@ Los notebooks se encuentran en la carpeta `notebooks/`. Los resultados o archivo
 1. Clonar el repositorio:
 
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/Cgomez2107/talleres_corte_1.git
    cd talleres_corte_1
    ```
-
 2. Crear y activar un entorno virtual:
 
    ```bash
@@ -55,24 +52,21 @@ Los notebooks se encuentran en la carpeta `notebooks/`. Los resultados o archivo
    ```bash
    source .venv/bin/activate
    ```
-
 3. Instalar Jupyter y las dependencias requeridas:
 
    ```bash
    python -m pip install --upgrade pip
    pip install jupyter
    ```
-
 4. Iniciar Jupyter:
 
    ```bash
    jupyter notebook
    ```
-
 5. Abrir y ejecutar los notebooks ubicados en `notebooks/`, ejecutando sus celdas en orden.
 
 ## Uso de IA Generativa
 
-| Herramienta | Propósito | Partes empleadas |
-| --- | --- | --- |
+| Herramienta                | Propósito                | Partes empleadas                |
+| -------------------------- | ------------------------- | ------------------------------- |
 | [Espacio para herramienta] | [Espacio para propósito] | [Espacio para partes empleadas] |
